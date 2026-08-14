@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Signal Lost | Dreadstache</title>
+  <link rel="stylesheet" href="/dreadstache-music/styles.css" id="site-styles">
+  <script>
+    const base = location.hostname.endsWith("github.io") ? "/dreadstache-music/" : "/";
+    document.querySelector("#site-styles").href = `${base}styles.css`;
+    addEventListener("DOMContentLoaded", () => document.querySelector("#home").href = base);
+  </script>
+</head>
+<body>
+  <main class="section" style="min-height:100vh;display:grid;align-content:center">
+    <p class="eyebrow">Signal lost</p>
+    <h1>This frequency is empty.</h1>
+    <p class="lede">The transmission continues elsewhere.</p>
+    <div class="actions"><a id="home" class="button primary" href="/">Return to Dreadstache</a></div>
+  </main>
+</body>
+</html>
