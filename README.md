@@ -13,8 +13,7 @@ Official lightweight website for Dreadstache music, releases, visual work, and f
 
 GitHub Pages publishes from `main` at the repository root.
 
-- Initial URL: `https://dreadstache.github.io/dreadstache-music/`
-- Intended custom domain: `https://music.luccote.com/`
+- Canonical public address: `https://music.luccote.com/`
 
 `CNAME.example` is intentionally dormant until the DNS record and Pages setting are ready.
 
